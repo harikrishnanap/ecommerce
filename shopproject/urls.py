@@ -18,12 +18,17 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
+from django.views.generic import RedirectView
 
 urlpatterns = [
+
     path('admin/', admin.site.urls),
     path('', include('shopapp.urls')),
     path('search/', include('search_app.urls')),
     path('cart/', include('cart.urls')),
+
+# Add this line to redirect root URL to your shop
+#     path('', RedirectView.as_view(pattern_name='shopapp:allProdCat', permanent=False)),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL,
