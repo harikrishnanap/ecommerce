@@ -19,6 +19,42 @@ A simple ecommerce website built with Django, featuring product categories, sear
 - Frontend: HTML, CSS, Bootstrap
 - Database: SQLite
 
+## ⚙️ Installation Instructions
+
+Follow these steps to set up the project on your local machine:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/harikrishnanap/ecommerce.git
+cd ecommerce
+```
+### 2. Create and activate a virtual environment
+```bash
+python -m venv venv
+
+# For Windows:
+venv\Scripts\activate
+
+# For macOS/Linux:
+source venv/bin/activate
+```
+### 3. Install Django and other dependencies
+```bash
+pip install -r requirements.txt
+```
+### 4. Apply database migrations
+```bash
+python manage.py makemigrations
+```
+
+### 5. Run the development server
+```bash
+python manage.py runserver
+```
+
+Visit: http://127.0.0.1:8000/
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
