@@ -25,8 +25,18 @@ A simple ecommerce website built with Django, featuring product categories, sear
 ![Home Page](screenshots/home1.png)
 ![Home Page](screenshots/home2.png)
 ![Home Page](screenshots/home3.png)
-### 🏠 Product Detail Page
+
+### Product Detail Page
 ![Product Detail Page](screenshots/product-details.png)
+
+### Category Page
+![Category Page](screenshots/category.png)
+
+### Search Page
+![Search Page](screenshots/search.png)
+
+### Cart Page
+![Cart Page](screenshots/cart.png)
 
 ## 📁 Project Structure
 
