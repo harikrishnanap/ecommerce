@@ -55,6 +55,10 @@ python manage.py runserver
 
 Visit: http://127.0.0.1:8000/
 
+## 🚀 Live Demo
+
+🟢 [to-do-list is live here](https://ecommercehari.pythonanywhere.com/)
+
 ## 📸 Screenshots
 
 ### 🏠 Home Page
