@@ -27,8 +27,33 @@ A simple ecommerce website built with Django, featuring product categories, sear
 
 ```bash
 ecommerce/
-├── ecommerce/          # Django settings
-├── shop/               # Main app
-├── static/             # CSS/JS
+├── ecommerce/          # Django project folder (settings.py, urls.py, wsgi.py)
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── shop/               # Django app for handling ecommerce logic
+│   ├── migrations/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── views.py
+│   └── urls.py
+│
+├── static/             # Static files (CSS, JS, images)
+│   └── style.css
+│
 ├── templates/          # HTML templates
-└── manage.py
+│   ├── base.html
+│   └── shop/
+│       ├── index.html
+│       ├── category.html
+│       └── product.html
+│
+├── db.sqlite3          # SQLite DB file
+├── manage.py           # Django's CLI utility
+
