@@ -112,3 +112,6 @@ ecommerce/
 ├── db.sqlite3          # SQLite DB file
 ├── manage.py           # Django's CLI utility
 
+## 🙋‍♂️ Author
+
+[Harikrishnan A P](https://github.com/harikrishnanap)
